@@ -9,6 +9,6 @@
  #   print('odd')
 
 
-x = [3,5,1,7]
-x.sort()
+x = [4,5,2,7,5,8]
+x.reverse()
 print(x)
