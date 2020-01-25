@@ -7,4 +7,4 @@ if w == 0:
     else:
         print('oops')
 elif w==1:
-    print('odd')
+    print('odd')  
