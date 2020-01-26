@@ -3,6 +3,7 @@
 #if w == 0:
     #print('even')
     #if r>=10:
+    #print('good number')
    #  else:
  #       print('oops')
 #elif w==1:
@@ -35,6 +36,7 @@ s ='swarna'
 for i in s:
     print(i)
 """""
+'''''
 av =10
 r = int(input("Enter the no of candies"))
 i=1
@@ -44,6 +46,32 @@ while i<=r:
         break
     print('candy')
     i+=1
+'''''
+'''''
+q = int(input("Enter a number"))
+for i in range(q):
+    if i%3==0 or i%5==0 or i%7==0:
+        continue
+    print(i)
+'''''
+'''''
+for i in range(1,101):
+    if i%2==0:
+        continue
+    print(i)
+'''''
+r = '#'
+i = 1
+while i<=4:
+    j = 1
+    while j<=4:
+        print(r,end='')
+        j+=1
+    print(r)
+    i+=1
+
+
+
 
 
 
